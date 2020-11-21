@@ -1,0 +1,39 @@
+html {
+    height: 100vh;
+    
+  }
+  
+  body{
+    background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+  }
+
+  h1{
+      letter-spacing: 1rem;
+  }
+
+  .brand {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    font-size: 1.3rem;
+  }
+  
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  hr {
+    margin: auto;
+    width: 50%;
+  }
+  
